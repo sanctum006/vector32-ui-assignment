@@ -1,0 +1,27 @@
+.navabar__container {
+  height: 70px;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 35px 0px;
+}
+
+.navbar__profileOptions {
+  display: flex;
+  align-items: center;
+}
+
+.navbar__profileOptions > * {
+  margin: 0 15px;
+}
+
+.navabar__username {
+  display: flex;
+  align-items: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.navabar__username > * {
+  margin: 0 5px;
+}

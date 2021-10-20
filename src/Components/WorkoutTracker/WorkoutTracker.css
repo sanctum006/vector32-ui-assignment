@@ -1,0 +1,52 @@
+/* .workoutTracker__container {
+} */
+
+.workoutTracker__upperContainer {
+  display: flex;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.workoutTracker__upperContainer > img {
+  width: 120px;
+}
+
+.workoutTracker__textBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.workoutTracker__textBox > h1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  color: #3cdc9f;
+  font-size: 2.5rem;
+  letter-spacing: 0.01px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.workoutTracker__textBox > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.workoutTracker__textBox > div > h1 {
+  font-size: 1.2rem;
+  font-weight: 900;
+  line-height: 0.1rem;
+}
+
+.workoutTracker__lowerContainer {
+  background-color: #fff;
+  margin: 10px 0;
+  border-radius: 10px;
+  padding: 10px 20px;
+}

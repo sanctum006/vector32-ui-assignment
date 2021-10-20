@@ -1,0 +1,22 @@
+.trackerSectionBody__container {
+  flex-grow: 1;
+  margin: 20px 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.trackerSectionBody__container > * {
+  margin: 0 20px 0 0;
+}
+
+@media only screen and (max-width: 1150px) {
+  .trackerSectionBody__container {
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .trackerSectionBody__container > * {
+    margin: 10px 20px 0 10px;
+  }
+}
